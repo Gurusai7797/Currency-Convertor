@@ -1,0 +1,34 @@
+//example
+// [
+//   { "id": 1, "text": "item1" },
+//   { "id": 2, "text": "item2" },
+//   { "id": 3, "text": "item3" }
+// ]
+
+
+// Javascript to fetch above jsondata
+
+//example 1
+// function cal() {
+//   fetch('items.json')
+//     .then(function (res) {
+//       console.log(res);
+//       return res.json();
+//     })
+//     .then((data) => console.log(data));
+//   //or
+//   // .then(function (data) {
+//   //   console.log(data);
+//   // });
+// }
+
+// cal();
+// example 2
+
+// function ca() {
+//   fetch('items.json')
+//     .then((res) => res.json())
+//     .then((data) => (document.body.innerHTML = data[0].text));
+// }
+
+// ca();
